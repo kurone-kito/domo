@@ -1,27 +1,59 @@
 {
-  "name": "domo",
+  "name": "kastelo",
+  "description": "Practice for Google Maps Webapp",
   "version": "0.1.0",
+  "author": "kurone-kito",
+  "license": "MIT",
   "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.17",
-    "@types/node": "12.7.1",
-    "@types/react": "16.9.1",
-    "@types/react-dom": "16.8.5",
-    "dotenv": "^8.0.0",
-    "google-map-react": "^1.1.4",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
-    "typescript": "3.5.3"
+  "keywords": [
+    "webapp",
+    "Google maps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurone-kito/kastelo.git"
   },
+  "bugs": {
+    "url": "https://github.com/kurone-kito/kastelo/issues"
+  },
+  "homepage": "https://github.com/kurone-kito/kastelo#readme",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "engines": {
+    "node": ">= 12.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "google-map-react": "^1.1.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/google-map-react": "^0.23.12",
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2",
+    "react-scripts": "^3.1.1",
+    "typescript": "^3.5.3"
   },
   "browserslist": {
     "production": [
@@ -35,8 +67,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@types/dotenv": "^6.1.1",
-    "@types/google-map-react": "^0.23.12"
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
