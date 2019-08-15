@@ -1,0 +1,12 @@
+{
+  "trigger": true,
+  "modules": ["captcha-verify"],
+  "parentResource": "kastelo683e9063",
+  "functionName": "kastelo683e9063VerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "roleName": "kastelo683e9063VerifyAuthChallengeResponse",
+  "skipEdit": true,
+  "resourceName": "kastelo683e9063VerifyAuthChallengeResponse"
+}

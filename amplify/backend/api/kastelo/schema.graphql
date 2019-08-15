@@ -1,0 +1,20 @@
+type Spot @model {
+  id: ID!
+  name: String!
+  lat: Float!
+  lng: Float!
+  posts: [Post] @connection(name: "SpotPosts")
+  reviews: [Review] @connection(name: "SpotReviews")
+}
+type Post @model {
+  id: ID!
+  title: String!
+  detail: String!
+  spot: Spot @connection(name: "SpotPosts")
+}
+type Review @model {
+  id: ID!
+  rate: Int!
+  content: String
+  spot: Spot @connection(name: "SpotReviews")
+}

@@ -1,0 +1,12 @@
+{
+  "trigger": true,
+  "modules": ["captcha-define-challenge"],
+  "parentResource": "kastelo683e9063",
+  "functionName": "kastelo683e9063DefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "roleName": "kastelo683e9063DefineAuthChallenge",
+  "skipEdit": true,
+  "resourceName": "kastelo683e9063DefineAuthChallenge"
+}
