@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "kastelo",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authkastelo683e9063",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

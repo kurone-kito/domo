@@ -1,0 +1,12 @@
+{
+  "trigger": true,
+  "modules": ["verification-link"],
+  "parentResource": "kastelo683e9063",
+  "functionName": "kastelo683e9063CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "roleName": "kastelo683e9063CustomMessage",
+  "skipEdit": true,
+  "resourceName": "kastelo683e9063CustomMessage"
+}
