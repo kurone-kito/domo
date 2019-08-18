@@ -4,11 +4,11 @@ env:
   node: true
 extends:
   - airbnb
-  - react-app
   - 'eslint:recommended'
   - 'plugin:@typescript-eslint/recommended'
   - 'plugin:prettier/recommended'
   - prettier/@typescript-eslint
+  # - react-app
 parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaFeatures:
