@@ -33,7 +33,7 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "@aws-amplify/api": "^1.0.42",
+    "@aws-amplify/api": "^3.2.17",
     "@aws-amplify/pubsub": "^1.1.0",
     "@types/aws-lambda": "^8.10.31",
     "@types/dotenv": "^6.1.1",
